@@ -1,19 +1,19 @@
 {
-  "name": "broccoli-funnel",
-  "version": "2.0.1",
-  "description": "Broccoli plugin that allows you to filter files selected from an input node down based on regular expressions.",
+  "name": "broccoli-copy",
+  "version": "0.0.0",
+  "description": "Broccoli plugin",
   "main": "index.js",
-  "author": "Robert Jackson",
+  "author": "",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/broccolijs/broccoli-funnel.git"
+    "url": ""
   },
   "files": [
     "index.js"
   ],
   "engines": {
-    "node": "^4.5 || 6.* || >= 7.*"
+    "node": " 6.* || >= 7.*"
   },
   "scripts": {
     "test": "mocha tests/",
@@ -48,7 +48,10 @@
     "fs-extra": "^0.30.0",
     "mocha": "~3.0.2",
     "mocha-eslint": "^4.1.0",
+    "broccoli-funnel": "^1.2.0",
     "rimraf": "^2.3.2",
-    "rsvp": "^3.3.1"
+    "symlink-or-copy": "^1.1.8",
+    "rsvp": "^3.3.1",
+    "tree-sync": "^1.2.2"
   }
 }
